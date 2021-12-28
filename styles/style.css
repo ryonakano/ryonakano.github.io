@@ -1,0 +1,174 @@
+/* Global */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbfbfb;
+  margin: 0;
+  color: #464646;
+  font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  color: #383838;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+  color: #6a9146;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 20px;
+  background: #6e8f50;
+  color: #fbfbfb;
+  border-radius: 6px;
+  transition: 0.4s;
+}
+
+/* About Section */
+.about-wrapper {
+  background-color: #eeeeee;
+}
+
+.about-section {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.about-left {
+  float: right;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.about-profile ul {
+  margin-top: 50px;
+}
+
+.about-profile li {
+  margin-bottom: 15px;
+}
+
+.about-profile-text {
+  margin-left: 10px;
+}
+
+.about-right {
+  float: right;
+  width: 50%;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+.about-right > img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px #656565;
+}
+
+/* App Section */
+.app-section {
+  clear: both;
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.app-icon {
+  width: 128px;
+}
+
+.detail-link::after {
+  display: inline-block;
+  content: "→";
+  margin-left: 5px;
+  transition: 0.4s;
+}
+
+.detail-link:hover::after {
+  transform: translateX(5px);
+}
+
+.app-section-parent {
+  /* https://qiita.com/mkurahara/items/67858ebf38ed8a6ea966#flexを使う場合 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.app-section-child {
+  width: 300px;
+  height: 350px;
+  margin: 50px 20px;
+}
+
+.app-section-child h3 {
+  border-bottom: 1px solid #cacaca;
+  padding-bottom: 10px;
+}
+
+/* Translation Section */
+.translation-section {
+  clear: both;
+  overflow: hidden;
+  background: #272650;
+  color: #fbfbfb;
+}
+
+.translation-section-left {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.translation-section-left img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.translation-section-right {
+  float: left;
+  width: 50%;
+  padding: 150px 50px;
+}
+
+.translation-section-right h2 {
+  color: #fbfbfb;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.translation-section-right p {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  background: #eeeeee;
+  padding: 50px 0;
+  text-align: center;
+  color: #888888;
+  font-size: 12px;
+}
