@@ -1,24 +1,26 @@
+@import "color.css";
+
 /* Global */
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #fbfbfb;
+  background-color: var(--body-bg-color);
   margin: 0;
-  color: #464646;
+  color: var(--body-color);
   font-family: sans-serif;
 }
 
 h1, h2, h3 {
-  color: #383838;
+  color: var(--heading-color);
   font-weight: normal;
 }
 
 a {
   text-decoration: none;
   transition: 0.4s;
-  color: #6a9146;
+  color: var(--link-color);
 }
 
 a:hover {
@@ -33,15 +35,15 @@ ul {
 .button {
   display: inline-block;
   padding: 15px 20px;
-  background: #6e8f50;
-  color: #fbfbfb;
+  background: var(--button-bg-color);
+  color: var(--button-color);
   border-radius: 6px;
   transition: 0.4s;
 }
 
 /* About Section */
 .about-wrapper {
-  background-color: #eeeeee;
+  background-color: var(--about-bg-color);
 }
 
 .about-section {
@@ -79,7 +81,7 @@ ul {
 .about-right > img {
   width: 150px;
   border-radius: 50%;
-  box-shadow: 0px 0px 4px 2px #656565;
+  box-shadow: 0px 0px 4px 2px var(--avatar-shadow-color);
 }
 
 /* App Section */
@@ -121,7 +123,7 @@ ul {
 }
 
 .app-section-child h3 {
-  border-bottom: 1px solid #cacaca;
+  border-bottom: 1px solid var(--app-heading-border-color);
   padding-bottom: 10px;
 }
 
@@ -129,8 +131,8 @@ ul {
 .translation-section {
   clear: both;
   overflow: hidden;
-  background: #272650;
-  color: #fbfbfb;
+  background: var(--translation-section-bg-color);
+  color: var(--translation-section-color);
 }
 
 .translation-section-left {
@@ -155,7 +157,7 @@ ul {
 }
 
 .translation-section-right h2 {
-  color: #fbfbfb;
+  color: var(--translation-heading-color);
   font-weight: normal;
   font-size: 28px;
 }
@@ -166,9 +168,9 @@ ul {
 
 /* Footer */
 footer {
-  background: #eeeeee;
+  background: var(--footer-bg-color);
   padding: 50px 0;
   text-align: center;
-  color: #888888;
+  color: var(--footer-color);
   font-size: 12px;
 }

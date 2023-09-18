@@ -1,0 +1,51 @@
+:root {
+  /* Global */
+  --body-bg-color: #fbfbfb;
+  --body-color:  #464646;
+  --heading-color: #383838;
+  --link-color: #6a9146;
+  --button-bg-color: #6e8f50;
+  --button-color: #fbfbfb;
+
+  /* About Section */
+  --about-bg-color: #eeeeee;
+  --avatar-shadow-color: #656565;
+
+  /* App Section */
+  --app-heading-border-color: #cacaca;
+
+  /* Translation Section */
+  --translation-section-bg-color: #272650;
+  --translation-section-color: #fbfbfb;
+  --translation-heading-color: #fbfbfb;
+
+  /* Footer */
+  --footer-bg-color: #eeeeee;
+  --footer-color: #888888;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Global */
+    --body-bg-color: #3d3d3d;
+    --body-color:  #e8e8e8;
+    --heading-color: #fafafa;
+    --link-color: #afed74;
+    --button-bg-color: #80ad57;
+    --button-color: #fbfbfb;
+
+    /* About Section */
+    --about-bg-color: #464646;
+    --avatar-shadow-color: #787878;
+
+    /* App Section */
+    --app-heading-border-color: #707070;
+
+    /* Translation Section */
+    --translation-section-bg-color: #201f40;
+
+    /* Footer */
+    --footer-bg-color: #454545;
+    --footer-color: #b5b5b5;
+  }
+}
